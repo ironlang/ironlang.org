@@ -1,0 +1,30 @@
+.contentContainer {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 32px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 64px;
+}
+
+.sidebarContainer {
+  padding-top: 64px;
+}
+
+.background {
+  /* background-color: #f8f8fa; */
+}
+
+.sectionTitle {
+  color: #555c71;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  transition: all 0.2s;
+}

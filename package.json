@@ -10,6 +10,12 @@
   "dependencies": {
     "next": "9.5.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
-  }
+    "react-dom": "16.13.1",
+    "react-scrollspy": "^3.4.3"
+  },
+  "devDependencies": {
+    "@vita/prettier": "^1.1.2",
+    "prettier": "^2.0.5"
+  },
+  "prettier": "@vita/prettier"
 }

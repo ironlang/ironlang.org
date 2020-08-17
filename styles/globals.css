@@ -14,3 +14,45 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #555c71;
+  font-family: 'DM Serif Display', serif;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 4rem;
+  margin: 32px 0px;
+  padding-top: 64px;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 32px 0px;
+  padding-top: 32px;
+}
+
+.sectionCurrent {
+  color: #cc0052 !important;
+}
+
+.sectionScrolledPast {
+  color: #555c71;
+  opacity: 0.3;
+}
