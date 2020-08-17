@@ -1,8 +1,7 @@
 .installContainer {
-  background: black;
-  color: white;
+  background: #f8f8fa;
+  color: black;
   padding: 16px 24px;
-  font-size: 0.8rem;
   border-radius: 8px;
   font-family: 'Fira Code', monospace;
   margin-bottom: 8px;
@@ -10,11 +9,11 @@
 }
 
 .installArgsString {
-  color: #00ff00;
+  color: #cc0052;
 }
 
 .installArgsParam {
-  color: #aaa;
+  color: #778;
 }
 
 .installArgsCommand {
