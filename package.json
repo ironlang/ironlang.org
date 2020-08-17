@@ -8,9 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "gray-matter": "^4.0.2",
     "next": "9.5.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-markdown": "^4.3.1",
     "react-scrollspy": "^3.4.3"
   },
   "devDependencies": {

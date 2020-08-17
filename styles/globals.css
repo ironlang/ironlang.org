@@ -11,6 +11,15 @@ a {
   text-decoration: none;
 }
 
+a.primary {
+  color: #555c71;
+  transition: all 0.2s;
+}
+
+a.primary:hover {
+  text-decoration: underline;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -34,20 +43,6 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  font-size: 4rem;
-  line-height: 4rem;
-  margin: 32px 0px;
-  padding-top: 64px;
-}
-
-h3 {
-  font-size: 2rem;
-  line-height: 2rem;
-  margin: 32px 0px;
-  padding-top: 32px;
-}
-
 .sectionCurrent {
   color: #cc0052 !important;
 }
@@ -55,4 +50,13 @@ h3 {
 .sectionScrolledPast {
   color: #555c71;
   opacity: 0.3;
+}
+
+pre {
+  background: #f8f8fa;
+  margin: 32px -32px;
+  padding: 32px;
+  font-family: 'Fira Code', monospace;
+  line-height: 1.2rem;
+  tab-size: 4;
 }

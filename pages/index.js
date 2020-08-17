@@ -1,9 +1,32 @@
+import fs from 'fs'
 import Head from 'next/head'
+import matter from 'gray-matter'
+import guide from '../data/guide.json'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { Content } from '../components/Content'
 
-export default function Home() {
+export async function getStaticProps(context) {
+  const files = guide.map((path) => {
+    const file = fs.readFileSync(`content/${path}.md`, {
+      encoding: 'utf-8',
+    })
+    const fileData = matter(file)
+    return fileData
+  })
+
+  const data = JSON.stringify(files)
+
+  return {
+    props: {
+      data,
+    },
+  }
+}
+
+export default function Home({ data }) {
+  const sections = JSON.parse(data)
+
   return (
     <div>
       <Head>
@@ -21,7 +44,7 @@ export default function Home() {
 
       <main>
         <Header />
-        <Content />
+        <Content sections={sections} />
       </main>
 
       <Footer />

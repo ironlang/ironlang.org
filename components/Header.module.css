@@ -1,9 +1,37 @@
-.headerGrid {
+.headerContainer {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  padding: 32px;
+}
+
+.headerMenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerMenuNav {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+}
+
+.headerMenuNav li {
+  font-weight: 600;
+  color: #555c71;
+  margin-left: 32px;
+}
+
+.headerMenuNav li:first-child {
+  margin-left: 0px;
+}
+
+.banner {
+  flex: 1;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .actions {
@@ -19,5 +47,5 @@
 .divider {
   height: 4px;
   background: #555c71;
-  opacity: 0.5;
+  opacity: 0.1;
 }
