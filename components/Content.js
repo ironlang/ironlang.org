@@ -28,8 +28,29 @@ export function Content({ sections }) {
 
           <div>
             {sections.map((section) => (
-              <section className={styles.contentSection} id={section.data.id}>
-                <ReactMarkdown source={section.content} />
+              <section
+                key={section.data.id}
+                className={styles.contentSection}
+                id={section.data.id}
+              >
+                <ReactMarkdown
+                  source={section.content}
+                  renderers={{
+                    link({ href, children, ...props }) {
+                      return (
+                        <a
+                          href={href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="primary"
+                          {...props}
+                        >
+                          {children}
+                        </a>
+                      )
+                    },
+                  }}
+                />
               </section>
             ))}
           </div>

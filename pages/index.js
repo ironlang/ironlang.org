@@ -33,13 +33,13 @@ export default function Home({ data }) {
         <title>Iron</title>
         <link rel="icon" href="/images/logo.svg" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
-        <link
           href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;700&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
 
       <main>

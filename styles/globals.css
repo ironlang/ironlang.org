@@ -20,6 +20,10 @@ a.primary:hover {
   text-decoration: underline;
 }
 
+a.primary:focus {
+  color: #cc0052;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -56,7 +60,21 @@ pre {
   background: #f8f8fa;
   margin: 32px -32px;
   padding: 32px;
-  font-family: 'Fira Code', monospace;
-  line-height: 1.2rem;
   tab-size: 4;
+  border-radius: 8px;
+}
+
+code {
+  font-family: 'Overpass Mono', monospace;
+  line-height: 1.2rem;
+}
+
+ul,
+ol {
+  list-style-position: outside;
+  padding: 0px;
+}
+
+li::marker {
+  color: #cc0052;
 }
