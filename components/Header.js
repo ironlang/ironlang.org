@@ -1,6 +1,5 @@
 import styles from './Header.module.css'
-import { Container } from './Container'
-import { Logo } from './logo'
+import { Logo } from './Logo'
 import { Install } from './Install'
 import { Fragment } from 'react'
 

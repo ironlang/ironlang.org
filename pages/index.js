@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import { Logo } from '../components/logo'
-import { Container } from '../components/Container'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { Content } from '../components/Content'

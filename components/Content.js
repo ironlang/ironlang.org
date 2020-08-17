@@ -2,7 +2,6 @@ import Scrollspy from 'react-scrollspy'
 import styles from './Content.module.css'
 import { Container } from './Container'
 import { Section } from './Section'
-import { Logo } from './logo'
 
 export function Content() {
   const sections = [
