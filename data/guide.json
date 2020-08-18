@@ -1,1 +1,8 @@
-["00_introduction", "01_iron-at-a-glance", "02_types"]
+[
+  "00_introduction",
+  "01_iron-at-a-glance",
+  "02_types",
+  "03_functions",
+  "04_protocols",
+  "05_modules"
+]

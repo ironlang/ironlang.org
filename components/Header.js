@@ -10,9 +10,16 @@ export function Header() {
         <div className={styles.headerMenu}>
           <Logo />
           <ul className={styles.headerMenuNav}>
-            {/* <li>
-              <a>Blog</a>
-            </li> */}
+            <li>
+              <a
+                className="primary"
+                href="https://discord.gg/REZTE6T"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Discord
+              </a>
+            </li>
             <li>
               <a
                 className="primary"
