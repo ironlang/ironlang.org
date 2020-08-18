@@ -78,3 +78,29 @@ ol {
 li::marker {
   color: #cc0052;
 }
+
+table {
+  width: 100%;
+}
+
+tr {
+  background: #f8f8fa;
+}
+
+th {
+  padding: 8px;
+  text-align: left;
+  background: #cc0052;
+  color: white;
+}
+
+td {
+  padding: 8px;
+}
+
+table code {
+  color: #cc0052;
+  font-family: 'Overpass Mono', monospace;
+  background: rgba(204, 0, 82, 0.05);
+  border-radius: 4px;
+}

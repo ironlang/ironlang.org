@@ -18,7 +18,7 @@ export function Content({ sections }) {
                 scrolledPastClassName="sectionScrolledPast"
               >
                 {sections.map((section) => (
-                  <li className={styles.sectionTitle}>
+                  <li key={section.data.id} className={styles.sectionTitle}>
                     <a href={`#${section.data.id}`}>{section.data.title}</a>
                   </li>
                 ))}
