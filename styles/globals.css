@@ -61,7 +61,23 @@ pre {
   margin: 32px -32px;
   padding: 32px;
   tab-size: 4;
-  border-radius: 8px;
+  font-size: 1rem;
+}
+
+blockquote {
+  margin: 32px -32px;
+  background: #f8f8fa;
+  border-left-style: solid;
+  border-left-width: 4px;
+  border-left-color: #cc0052;
+}
+
+blockquote p {
+  margin: 0px;
+  color: #555c71;
+  padding: 32px;
+  padding-left: 28px;
+  font-size: 1rem;
 }
 
 code {
