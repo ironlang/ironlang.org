@@ -38,7 +38,8 @@ export function Header() {
             systems.
           </h1>
           <div className={styles.actions}>
-            <Install />
+//             <Install />
+            <p>Currently a work in progress.</p>
           </div>
         </div>
       </div>
